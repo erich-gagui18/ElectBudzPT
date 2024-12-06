@@ -9,7 +9,7 @@ import java.awt.*;
 import java.awt.event.ItemEvent;
 import java.util.LinkedHashMap;
 import java.util.List;
-
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class ElectBudzPT {
@@ -25,7 +25,7 @@ public class ElectBudzPT {
 
     // Method to initialize default candidates
     private static void initializeDefaultCandidates() {
-        positionVoteCount.put("Governor", createCandidateList("Mark Levi", "Leviste, Jose Antonio S.")); // 2 Candidates
+        positionVoteCount.put("Governor", createCandidateList("Recto, Rosa Vilma Tuazon S.", "Leviste, Jose Antonio S.")); // 2 Candidates
         positionVoteCount.put("Vice Governor", createCandidateList("Mandanas, Hermilando I.", "Manzano, Luis Philippe S.")); // 2 Candidates
         positionVoteCount.put("Provincial Board Member", createCandidateList("Balba, Rodolfo M.", "Corona, Alfredo C.", "Macalintal, Dennis C.")); // 3 Candidates
         positionVoteCount.put("Mayor", createCandidateList("Ilagan, Janet M.", "Collantes, Nelson P.", "Africa, Eric B.")); // 3 Candidates
