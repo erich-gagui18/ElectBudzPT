@@ -25,7 +25,7 @@ public class ElectBudzPT {
 
     // Method to initialize default candidates
     private static void initializeDefaultCandidates() {
-        positionVoteCount.put("President", createCandidateList("Recto, Rosa Vilma Tuazon S.", "Leviste, Jose Antonio S.")); // 2 Candidates
+        positionVoteCount.put("Governor", createCandidateList("Recto, Rosa Vilma Tuazon S.", "Leviste, Jose Antonio S.")); // 2 Candidates
         positionVoteCount.put("Vice Governor", createCandidateList("Mandanas, Hermilando I.", "Manzano, Luis Philippe S.")); // 2 Candidates
         positionVoteCount.put("Provincial Board Member", createCandidateList("Balba, Rodolfo M.", "Corona, Alfredo C.", "Macalintal, Dennis C.")); // 3 Candidates
         positionVoteCount.put("Mayor", createCandidateList("Ilagan, Janet M.", "Collantes, Nelson P.", "Africa, Eric B.")); // 3 Candidates
